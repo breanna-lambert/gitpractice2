@@ -1,0 +1,72 @@
+h1 {
+	font-weight: normal;
+	font-size: 3em;
+	border-bottom: 4px solid #222277;
+}
+
+body {
+	background-color: #56cc80;
+}
+
+/*#main {
+	border-bottom: 5px solid #222277;
+}
+*/
+.small {
+	font-size: 1em;
+	font-style: italic;
+}
+
+ul {
+  line-height: 30px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #444;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  height: 15px;
+  line-height: 15px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+  background-color: #111;
+}
+
+nav .active {
+  background-color: #222277;
+  color: black;
+}
+
+section {
+  display: flex;
+}
+
+aside {
+  flex: 1
+}
+
+article {
+  flex: 4
+}
+
+img {
+  width: 50%;
+  height: 50%;
+  align: center;
+}
